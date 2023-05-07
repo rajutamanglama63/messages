@@ -1,0 +1,8 @@
+### Create a new message
+
+POST http://localhost:3000/messages
+content-type: application/json
+
+{
+    "content": "Hello there!"
+}
